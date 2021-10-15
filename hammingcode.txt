@@ -42,7 +42,7 @@ def detectError(hc,receive):
         print()
 
 while(True):
-    sent = input('Enter sent data. ')
+    sent = input('Enter sent data : ')
     m = len(sent)
     r = calcRedundantBits(m)
     hc = posRedundantBits(sent, r)
